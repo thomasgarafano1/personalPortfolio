@@ -1,0 +1,62 @@
+/*
+Copyright 2026 Thomas Garafano. Content and code are separately licensed. Content is licensed under CC BY-NC-ND 4.0 license. HTML, CSS, and JS Code are licensed under the GNU AGPL Version 3 or any later version.
+
+Content SPDX-License-Identifier: CC-BY-NC-ND-4.0
+HTML, CSS, and JS Code SPDX-License-Identifier: AGPL-3.0-or-later
+*/
+
+/* CSS Reset */
+body, header, nav, nav ul, main, footer, img, h1, h3, h4, article, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+nav {
+
+}
+
+nav ul {
+
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+}
+
+/* ID Specific CSS */
+#resume {
+  display: none;
+  border: solid;
+  border-top: none;
+  padding: 2em;
+  margin: 0 2em 2em 2em;
+  width: 75vw;
+  
+  
+}
+
+#resumeButton {
+  display: block;
+  border: solid;
+  width: 75vw;
+  padding: 2em;
+  margin: 2em 2em 0 2em
+}
+#resumeButton div {
+  text-align: center;
+}
