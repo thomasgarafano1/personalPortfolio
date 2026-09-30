@@ -34,6 +34,13 @@ main {
   align-items: center;
 }
 
+img {
+  display: block;
+  width: 720px;
+  aspect-ratio: 16 / 9;
+  border: solid 1px;
+}
+
 footer {
   text-align: center;
 }
