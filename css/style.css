@@ -12,20 +12,55 @@ body, header, nav, nav ul, main, footer, img, h1, h3, h4, article, div {
   border: 0;
 }
 
+:root {
+  --heading-text-color: #00efff;
+  --main-text-color: #b3b4b8;
+  --red-text-color: #e23933;
+
+}
+
+body {
+  font-family: Radjhani, sans-serif;
+  background: linear-gradient(160deg, #3a151c 10%, #040b11 45%);
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0;
+
+}
+
 nav {
 
 }
 
 nav ul {
-
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
 }
 
 nav li {
-  display: inline-block;
+}
+
+.active {
+  color: var(--heading-text-color);
 }
 
 nav li a {
+  color: var(--red-text-color);
+  text-transform: uppercase;
+}
 
+p {
+  color: var(--main-text-color);
+}
+
+h1, h2, h3, h4 {
+  color: var(--heading-text-color);
 }
 
 main {
@@ -36,8 +71,9 @@ main {
 
 img {
   display: block;
-  width: 720px;
-  aspect-ratio: 16 / 9;
+  max-height: 405;
+  max-width: 720px;
+  /*aspect-ratio: 16 / 9;*/
   border: solid 1px;
 }
 
@@ -53,8 +89,13 @@ footer {
   padding: 2em;
   margin: 0 2em 2em 2em;
   width: 75vw;
-  
-  
+  background-color: white;
+  color: black;
+  max-width: 960px; 
+}
+
+#resume h3, #resume p {
+  color: black;
 }
 
 #resumeButton {
@@ -62,8 +103,18 @@ footer {
   border: solid;
   width: 75vw;
   padding: 2em;
-  margin: 2em 2em 0 2em
+  margin: 2em 2em 0 2em;
+  max-width: 960px;
 }
 #resumeButton div {
   text-align: center;
+}
+
+#hyprland-metro, #flashcard, #ramCentral {
+  max-width: 720px;
+  text-align: center;
+}
+
+pre { 
+  color: var(--main-text-color);
 }
