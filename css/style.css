@@ -84,23 +84,21 @@ footer {
 /* ID Specific CSS */
 #resume {
   display: none;
-  border: solid;
-  border-top: none;
   padding: 2em;
   margin: 0 2em 2em 2em;
   width: 75vw;
-  background-color: white;
-  color: black;
+  color: var(--main-text-color);
   max-width: 960px; 
 }
 
 #resume h3, #resume p {
-  color: black;
+  color: var(--main-text-color);
 }
 
 #resumeButton {
   display: block;
-  border: solid;
+  border: 2px solid #51191B;
+  background-color: #090C15;
   width: 75vw;
   padding: 2em;
   margin: 2em 2em 0 2em;
@@ -117,4 +115,34 @@ footer {
 
 pre { 
   color: var(--main-text-color);
+}
+
+#copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+#copyrightHeaders {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 50vw;
+}
+
+#copyrightNotices {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 50vw;
+
+}
+
+#AGPLv3 {
+  display: none;
+}
+
+#CC-BY-NC-ND-4-0 {
+  display: none
 }
