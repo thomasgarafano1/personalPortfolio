@@ -78,3 +78,10 @@ PART 3: INTERACTIVITY (Answer ALL questions)
   Buttons will change colors.
 5. How does interactivity improve the user experience?
   It gives less clutter to large webpages.
+
+----------------
+EXTERNAL SOURCES:
+
+email backend: https://www.emailjs.com/
+
+HTML, CSS, and JS sources: https://www.w3schools.com/ https://developer.mozilla.org/en-US/ 
