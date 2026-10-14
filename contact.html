@@ -15,6 +15,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@5/dist/email.min.js">
+    </script>
   </head>
 
   <body>
@@ -30,31 +34,27 @@
     </header>
 
     <main>
-      <!-- <div id="contactForm">
-        <form action="mailto:thomasgarafano1@gmail.com" method="get" enctype="text/plain">
-          <label for="name">Name:</label>
-          <input type="text" name="name" id="name">
-
-          <label for="email">Email:</label>
-          <input type="email" name="email" id="email" required>
-
-          <label for="subject">Subject:</label>
-          <input type="text" name="subject" id="subject">
-
-          <label for="body">Message:</label>
-          <textarea id="body name="body></textarea>
-
-          <input type="submit" value="Email">
-
+      <h3>Send an Email</h3>
+      <div id="contactFormDiv">
+        <form id="contact-form">
+          <input type="hidden" name="time" value="Mar 10 2025 08:46">
+          <label>Name</label>
+          <input type="text" name="name" required>
+          <label>Email</label>
+          <input type="email" name="email" required>
+          <label>Subject</label>
+          <input type="text" name="title" required>
+          <label>Message</label>
+          <textarea name="message" required></textarea>
+          <input type="submit" value="Send">
         </form>
-      </div> -->
+      </div>
 
       <div id="email">
         <p>You can contact me at <a href="mailto:thomasgarafano1@gmail.com">thomasgarafano1@gmail.com</a>.</p>
       </div>
       <div id="github">
         <p>This website is hosted on GitHub. Click <a href="https://github.com/thomasgarafano1/personalportfolio">here</a> to view the repo.</p>
-        <p>It is also mirrored to GitLab. Click <a>here</a> to view the mirror.</p>
       </div>
     </main>
 
@@ -63,5 +63,6 @@
       <p>Copyright 2026 Thomas Garafano. Content and code are separately licensed. Content is licensed under CC BY-NC-ND 4.0 license. HTML, CSS, and JS Code are licensed under the GNU AGPL Version 3 or any later version.</p>
       <a href="copyright.html">More Information</a>
     </footer>
+    <script src="scripts/contact.js"></script>
   </body>
 </html>

@@ -61,6 +61,7 @@ nav li a {
 
 p {
   color: var(--main-text-color);
+  text-align: center;
 }
 
 h1, h2, h3, h4 {
@@ -99,6 +100,7 @@ footer {
 
 #resume h3, #resume p, #resume li, #aboutMe p {
   color: var(--heading-text-color);
+  text-align: left;
 }
 
 .interactiveButton {
@@ -115,7 +117,10 @@ footer {
   text-align: center;
 }
 
-#hyprland-metro, #flashcard, #ramCentral {
+#hyprland-metro, #hyprland-nier, #flashcard, #ramCentral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 720px;
   text-align: center;
 }
@@ -158,3 +163,27 @@ pre {
   display: none
 }
 
+label {
+  color: var(--red-text-color);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+form label {
+  margin-top: .5em;
+}
+
+input, textarea {
+  background-color: #090c15;
+  border: 2px solid #51191b;
+  color: var(--heading-text-color);
+  margin-bottom: 0.5em;
+  min-height: 2em;
+  font-family: Radjhani, sans-serif;
+  padding: .5em
+
+}
